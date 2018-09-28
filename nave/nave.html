@@ -21,6 +21,16 @@
     <canvas id="miCanvas" width="640" height="480"></canvas>
 
     <script type="application/javascript">
+    "use strict";
+		var a = 10, b = 'mi texto',
+			c = "mi otro texto", d = true,
+			e;
+		console.log(typeof a);
+		console.log(typeof b);
+		console.log(typeof c);
+		console.log(typeof d);
+		console.log(typeof e);
+
         //Recuperamos el canvas donde dibujaremos
         var canvas = document.getElementById("miCanvas");
         //Establecemos el contexto de ese canvas en 2D. Es decir, dibujaremos en 2D.
